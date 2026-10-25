@@ -176,8 +176,8 @@ CURATED = {
         "model attribution hypotheses; not a definitive identity test."
     ),
     "Rove_cli": (
-        ["Go", "Wails", "React", "TypeScript"],
-        "A local-first coding agent with a Go daemon and desktop interface "
+        ["Wails", "React", "TypeScript"],
+        "A local-first coding agent with a shared daemon and desktop interface "
         "for sessions, terminal workflows and automations."
     ),
     "KeyLingo": (
