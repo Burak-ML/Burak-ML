@@ -85,9 +85,9 @@ An exploratory framework for comparing LLM behavior and documenting model attrib
 <td width="50%" valign="top">
 
 #### [Rove_cli](https://github.com/KAYRA-ML/Rove_cli)
-<sub>`Go` · `Wails` · `React` · `TypeScript` — 1 star</sub>
+<sub>`Wails` · `React` · `TypeScript` — 1 star</sub>
 
-A local-first coding agent with a Go daemon and desktop interface for sessions, terminal workflows and automations.
+A local-first coding agent with a shared daemon and desktop interface for sessions, terminal workflows and automations.
 
 <sub>0x04 · 17 Sep 2026 → 25 Oct 2026</sub>
 
