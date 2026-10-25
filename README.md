@@ -46,22 +46,22 @@ developer tooling, automation, data and protocol-level experiments.
 <tr>
 <td width="50%" valign="top">
 
-#### [Rove_cli](https://github.com/KAYRA-ML/Rove_cli)
-<sub>`Go` · `Wails` · `React` · `TypeScript` — 1 star</sub>
+#### [fast_f1_data](https://github.com/KAYRA-ML/fast_f1_data)
+<sub>`Python` · `SQL` · `PostgreSQL` · `FastAPI` — 5 stars</sub>
 
-A local-first AI agent desktop and CLI: multi-session chat, Kanban, terminal multiplexing, memory, skills/plugins and background automation in one app.
+A Formula 1 data analysis app using SQL queries, a Python API and interactive driver, team and lap comparisons.
 
-<sub>0x00 · 17 Sep 2026 → 16 Oct 2026</sub>
+<sub>0x00 · 01 Jul 2026 → 19 Sep 2026</sub>
 
 </td>
 <td width="50%" valign="top">
 
-#### [ModelAudit](https://github.com/KAYRA-ML/ModelAudit)
-<sub>`LLM` · `AI Forensics` · `Prompt Engineering` — 23 stars</sub>
+#### [SearchForge_open](https://github.com/KAYRA-ML/SearchForge_open)
+<sub>`Python` · `FastAPI` · `Next.js` · `Google Drive` — 4 stars</sub>
 
-An open framework for LLM identity forensics: fingerprinting model behavior, testing transparency and detecting when a model is wrapped behind another persona.
+A document search and PDF reading application connecting Google Drive with a Python backend, keyword search and caching.
 
-<sub>0x01 · 12 Sep 2026 → 19 Sep 2026</sub>
+<sub>0x01 · 27 Aug 2026 → 19 Sep 2026</sub>
 
 </td>
 </tr>
@@ -69,146 +69,45 @@ An open framework for LLM identity forensics: fingerprinting model behavior, tes
 <td width="50%" valign="top">
 
 #### [RoveCode_plugins](https://github.com/KAYRA-ML/RoveCode_plugins)
-<sub>`TypeScript` · `MCP` · `AI Engineering` — 25 stars</sub>
+<sub>`TypeScript` · `MCP` · `AI Automation` — 25 stars</sub>
 
-A token-efficient skill, routing and memory layer for AI coding tools, with domain-aware plugins, deterministic routing and persistent user preferences.
+An MCP-based skill and memory system that routes AI coding requests to relevant tools, with documented evaluation scripts.
 
 <sub>0x02 · 05 Sep 2026 → 19 Sep 2026</sub>
 
 </td>
 <td width="50%" valign="top">
 
+#### [ModelAudit](https://github.com/KAYRA-ML/ModelAudit)
+<sub>`LLM Evaluation` · `Research` · `AI` — 23 stars</sub>
+
+An exploratory framework for comparing LLM behavior and documenting model attribution hypotheses; not a definitive identity test.
+
+<sub>0x03 · 12 Sep 2026 → 19 Sep 2026</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [Rove_cli](https://github.com/KAYRA-ML/Rove_cli)
+<sub>`Go` · `Wails` · `React` · `TypeScript` — 1 star</sub>
+
+A local-first coding agent with a Go daemon and desktop interface for sessions, terminal workflows and automations.
+
+<sub>0x04 · 17 Sep 2026 → 16 Oct 2026</sub>
+
+</td>
+<td width="50%" valign="top">
+
 #### [KeyLingo](https://github.com/KAYRA-ML/KeyLingo)
-<sub>`Python` · `DeepL API` · `macOS` — 2 stars</sub>
+<sub>`Python` · `macOS` · `DeepL API` — 2 stars</sub>
 
-A global macOS translator that turns typed text between Turkish and English inside any app using keyboard shortcuts, while preserving clipboard and input state.
+A Python utility for translating active text between Turkish and English using global keyboard shortcuts on macOS.
 
-<sub>0x03 · 15 Sep 2026 → 19 Sep 2026</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [SearchForge_open](https://github.com/KAYRA-ML/SearchForge_open)
-<sub>`Python` · `FastAPI` · `Next.js` · `Google Drive` — 4 stars</sub>
-
-A document search system for PDFs and files stored in Google Drive, with a FastAPI backend, browser PDF reading and keyword/page-level search.
-
-<sub>0x04 · 27 Aug 2026 → 19 Sep 2026</sub>
+<sub>0x05 · 15 Sep 2026 → 19 Sep 2026</sub>
 
 </td>
-<td width="50%" valign="top">
-
-#### [fast_f1_data](https://github.com/KAYRA-ML/fast_f1_data)
-<sub>`Python` · `FastAPI` · `PostgreSQL` · `React` — 5 stars</sub>
-
-A full-stack Formula 1 data analysis platform for 2024-2025 data, built around RAM-efficient SQL queries, pagination and interactive driver/team analysis.
-
-<sub>0x05 · 01 Jul 2026 → 19 Sep 2026</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [Codecam_mol](https://github.com/KAYRA-ML/Codecam_mol)
-<sub></sub>
-
-_No description yet._
-
-<sub>0x06 · 10 Oct 2026 → 10 Oct 2026</sub>
-
-</td>
-<td width="50%" valign="top">
-
-#### [open-_code_klavuz](https://github.com/KAYRA-ML/open-_code_klavuz)
-<sub>26 stars</sub>
-
-_No description yet._
-
-<sub>0x07 · 01 Sep 2026 → 19 Sep 2026</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [codejam](https://github.com/KAYRA-ML/codejam)
-<sub>`TypeScript` — 5 stars</sub>
-
-_No description yet._
-
-<sub>0x08 · 30 Aug 2026 → 19 Sep 2026</sub>
-
-</td>
-<td width="50%" valign="top">
-
-#### [ZscriptBot](https://github.com/KAYRA-ML/ZscriptBot)
-<sub>`TypeScript` — 6 stars</sub>
-
-_No description yet._
-
-<sub>0x09 · 26 Aug 2026 → 19 Sep 2026</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [Kayra-ML.github.io](https://github.com/KAYRA-ML/Kayra-ML.github.io)
-<sub>`CSS` — 4 stars</sub>
-
-_No description yet._
-
-<sub>0x0A · 21 Jul 2026 → 19 Sep 2026</sub>
-
-</td>
-<td width="50%" valign="top">
-
-#### [Qbeat](https://github.com/KAYRA-ML/Qbeat)
-<sub>`Python` — 5 stars</sub>
-
-_No description yet._
-
-<sub>0x0B · 20 Jul 2026 → 19 Sep 2026</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [L-feOS](https://github.com/KAYRA-ML/L-feOS)
-<sub>`HTML` — 7 stars</sub>
-
-_No description yet._
-
-<sub>0x0C · 20 Jul 2026 → 19 Sep 2026</sub>
-
-</td>
-<td width="50%" valign="top">
-
-#### [zcore](https://github.com/KAYRA-ML/zcore)
-<sub>`HTML` — 5 stars</sub>
-
-_No description yet._
-
-<sub>0x0D · 05 Jul 2026 → 19 Sep 2026</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [thomas](https://github.com/KAYRA-ML/thomas)
-<sub>`JavaScript` — 6 stars</sub>
-
-_No description yet._
-
-<sub>0x0E · 26 Jun 2026 → 19 Sep 2026</sub>
-
-</td>
-<td width="50%"></td>
 </tr>
 </table>
 <!--/projects-->
