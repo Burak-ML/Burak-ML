@@ -1,7 +1,7 @@
 <!--fig-header-->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img alt="Kayra, @KAYRA-ML. 18, Hatay, Türkiye. I'd rather speak the protocol than drive a browser." src="assets/header-light.svg" width="100%">
+  <img alt="Burak, @KAYRA-ML. 18, Hatay, Türkiye. I'd rather speak the protocol than drive a browser." src="assets/header-light.svg" width="100%">
 </picture>
 <!--/fig-header-->
 
@@ -12,7 +12,7 @@ APIs, automation, CLI systems, agent orchestration and reverse engineering**. I 
 understanding what a system is actually doing underneath the interface, then cutting away
 layers I do not need.
 
-I'm **Kayra**, 18, from **Hatay, Türkiye**. I work mostly with **Python, Go, Node.js and
+I'm **Burak**, 18, from **Hatay, Türkiye**. I work mostly with **Python, Go, Node.js and
 Rust**. On the data / ML side I use **NumPy, Pandas, scikit-learn, Matplotlib and Jupyter**;
 on the systems side I spend most of my time on provider/router infrastructure, terminal-first
 developer tools, automation pipelines and protocol-level integrations.
@@ -263,7 +263,7 @@ reader on GitHub's light theme is not handed a black slab.
 
 <br/>
 
-Merhaba, ben **Kayra**. 18 yaşındayım ve **Hatay**'danım.
+Merhaba, ben **Burak**. 18 yaşındayım ve **Hatay**'danım.
 
 AI engineering, machine learning, veri araçları, AI provider altyapıları, otomasyon,
 API'ler, CLI araçları, agent orkestrasyonu ve reverse engineering tarafında çalışıyorum. Bir sistemi yüzeyden otomatikleştirmek yerine
