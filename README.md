@@ -5,22 +5,17 @@
 </picture>
 <!--/fig-header-->
 
-## The habit
+## About me
 
-I build across **AI engineering, machine learning, data tooling, AI provider infrastructure,
-APIs, automation, CLI systems, agent orchestration and reverse engineering**. I like
-understanding what a system is actually doing underneath the interface, then cutting away
-layers I do not need.
+I'm **Burak**, a second-year Computer Programming student in Türkiye, currently looking for internship and junior opportunities.
 
-I'm **Burak**, 18, from **Hatay, Türkiye**. I work mostly with **Python, Go, Node.js and
-Rust**. On the data / ML side I use **NumPy, Pandas, scikit-learn, Matplotlib and Jupyter**;
-on the systems side I spend most of my time on provider/router infrastructure, terminal-first
-developer tools, automation pipelines and protocol-level integrations.
+I work primarily with **Python, SQL and data analysis**. Alongside data projects, I build **APIs, developer tools and AI-assisted automation systems**. I enjoy understanding a problem, designing a practical solution and documenting how it works.
 
-### Stack
+### Focus & tools
 
-`Python` · `NumPy` · `Pandas` · `scikit-learn` · `Matplotlib` · `Jupyter` ·
-`Go` · `PostgreSQL` · `GitHub Actions`
+- **Data & analysis:** Python, SQL, PostgreSQL, Pandas, NumPy, Jupyter
+- **Backend development:** FastAPI, REST APIs, Git
+- **Automation & tooling:** MCP, TypeScript, Go, GitHub Actions
 
 <!--fig-fields-->
 <picture>
@@ -36,76 +31,63 @@ developer tools, automation pipelines and protocol-level integrations.
 </picture>
 <!--/fig-calendar-->
 
-## Things I've built
+## Selected projects
 
-A few projects that represent the kind of work I actually spend time on — AI systems,
-developer tooling, automation, data and protocol-level experiments.
+A few public projects chosen for their relevance to data, Python development and automation. Each repository has technical details and setup instructions.
 
 <!--projects-->
 <table>
 <tr>
 <td width="50%" valign="top">
 
-#### [fast_f1_data](https://github.com/KAYRA-ML/fast_f1_data)
-<sub>`Python` · `SQL` · `PostgreSQL` · `FastAPI` — 5 stars</sub>
+#### [fast_f1_data](https://github.com/Kayra-ML/fast_f1_data)
+<sub>Python · SQL · PostgreSQL · FastAPI</sub>
 
-A Formula 1 data analysis app using SQL queries, a Python API and interactive driver, team and lap comparisons.
-
-<sub>0x00 · 01 Jul 2026 → 19 Sep 2026</sub>
+F1 analysis platform: SQL-backed driver, team and lap comparisons with a Python API.
 
 </td>
 <td width="50%" valign="top">
 
-#### [SearchForge_open](https://github.com/KAYRA-ML/SearchForge_open)
-<sub>`Python` · `FastAPI` · `Next.js` · `Google Drive` — 4 stars</sub>
+#### [SearchForge_open](https://github.com/Kayra-ML/SearchForge_open)
+<sub>Python · FastAPI · Next.js · Google Drive</sub>
 
-A document search and PDF reading application connecting Google Drive with a Python backend, keyword search and caching.
-
-<sub>0x01 · 27 Aug 2026 → 19 Sep 2026</sub>
+Search and read Drive documents and PDFs using a Python API and keyword-based retrieval.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### [RoveCode_plugins](https://github.com/KAYRA-ML/RoveCode_plugins)
-<sub>`TypeScript` · `MCP` · `AI Automation` — 25 stars</sub>
+#### [RoveCode_plugins](https://github.com/Kayra-ML/RoveCode_plugins)
+<sub>TypeScript · MCP · Automation</sub>
 
-An MCP-based skill and memory system that routes AI coding requests to relevant tools, with documented evaluation scripts.
-
-<sub>0x02 · 05 Sep 2026 → 19 Sep 2026</sub>
+Domain-aware skills and memory for AI coding tools, with evaluation scripts.
 
 </td>
 <td width="50%" valign="top">
 
-#### [ModelAudit](https://github.com/KAYRA-ML/ModelAudit)
-<sub>`LLM Evaluation` · `Research` · `AI` — 23 stars</sub>
+#### [ModelAudit](https://github.com/Kayra-ML/ModelAudit)
+<sub>LLM evaluation · Research</sub>
 
-An exploratory framework for comparing LLM behavior and documenting model attribution hypotheses; not a definitive identity test.
-
-<sub>0x03 · 12 Sep 2026 → 19 Sep 2026</sub>
+Exploratory model behavior analysis; a methodology for forming attribution hypotheses, not proving identity.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### [Rove_cli](https://github.com/KAYRA-ML/Rove_cli)
-<sub>`Go` · `Wails` · `React` · `TypeScript` — 1 star</sub>
+#### [Rove_cli](https://github.com/Kayra-ML/Rove_cli)
+<sub>Go · Wails · React</sub>
 
-A local-first coding agent with a Go daemon and desktop interface for sessions, terminal workflows and automations.
-
-<sub>0x04 · 17 Sep 2026 → 16 Oct 2026</sub>
+Local-first coding agent with a shared daemon, desktop app and CLI workflows.
 
 </td>
 <td width="50%" valign="top">
 
-#### [KeyLingo](https://github.com/KAYRA-ML/KeyLingo)
-<sub>`Python` · `macOS` · `DeepL API` — 2 stars</sub>
+#### [KeyLingo](https://github.com/Kayra-ML/KeyLingo)
+<sub>Python · macOS · DeepL</sub>
 
-A Python utility for translating active text between Turkish and English using global keyboard shortcuts on macOS.
-
-<sub>0x05 · 15 Sep 2026 → 19 Sep 2026</sub>
+Keyboard-driven translation utility for text inputs across macOS apps.
 
 </td>
 </tr>
@@ -126,58 +108,16 @@ A Python utility for translating active text between Turkish and English using g
 </picture>
 <!--/fig-langs-->
 
-## What this page is not telling you
+## What the charts show
 
-The figures above are generated from GitHub data rather than hand-entered numbers.
-Private work may be absent unless the workflow is given a token that can count it,
-and the language map reflects GitHub's reported source bytes rather than a claim
-about proficiency.
+The figures are generated from GitHub activity by [`build.py`](build.py) and [GitHub Actions](.github/workflows/refresh.yml). Language proportions reflect repository file sizes, **not skill levels**. Work in private repositories may not appear.
 
-## Now
+## Türkçe
 
-- Building **AI provider / router infrastructure** and API tooling.
-- Going deeper into **machine learning and data work** with NumPy, Pandas and scikit-learn.
-- Developing **CLI-first tools, agent orchestration and automation systems**.
-- Reverse-engineering protocols and turning them into smaller, direct integrations.
+Merhaba, ben **Burak**. Bilgisayar Programcılığı 2. sınıf öğrencisiyim ve veri analizi, Python geliştirme ve otomasyon alanlarında staj veya junior iş fırsatları arıyorum.
 
-## How this page is built
+**Python, SQL, PostgreSQL, Pandas** ve API geliştirme üzerine çalışıyorum. Veri analizi projelerinin yanında yapay zekâ destekli otomasyonlar ve geliştirici araçları da geliştiriyorum. Önemsediğim şey yalnızca çalışan bir proje yapmak değil; neden o yaklaşımı seçtiğimi ve nasıl çalıştığını açıklayabilmek.
 
-Every figure above is drawn by [`scripts/build.py`](scripts/build.py) from the
-GitHub GraphQL API, on a schedule and on every push
-[in Actions](.github/workflows/refresh.yml). No badge service, nothing hand-typed,
-no number that can quietly go stale.
+## Contact
 
-The figures are not decoration with data poured in. The language map's addresses
-are the real byte counts GitHub reports per language. The calendar is a hexdump
-where each byte is that day's commit count, so it reads as a heat map from a
-distance and as data up close. The wordmark is drawn as paths rather than set in a
-font, because no webfont survives GitHub's SVG sanitiser and the closest installed
-face would have been a worse answer than drawing six letters.
-
-Each figure is written twice, once per theme, and paired in a `<picture>`, so a
-reader on GitHub's light theme is not handed a black slab.
-
-<details>
-<summary><b>Türkçe</b></summary>
-
-<br/>
-
-Merhaba, ben **Burak**. 18 yaşındayım ve **Hatay**'danım.
-
-AI engineering, machine learning, veri araçları, AI provider altyapıları, otomasyon,
-API'ler, CLI araçları, agent orkestrasyonu ve reverse engineering tarafında çalışıyorum. Bir sistemi yüzeyden otomatikleştirmek yerine
-mümkün olduğunda protokolünü ve endpoint'lerini anlayıp doğrudan o katmanda çalışmayı
-tercih ediyorum.
-
-Python ağırlıklı çalışıyorum; veri ve ML tarafında **NumPy, Pandas, scikit-learn,
-Matplotlib ve Jupyter** kullanıyorum. Go, Node.js ve Rust da kullandığım araçlar arasında.
-Şu sıralar provider/router sistemleri, terminal tabanlı geliştirici araçları, otomasyon
-altyapıları ve ML/data projeleri üzerinde çalışıyorum.
-
-</details>
-
-## Reach me
-
-[@KAYRA-ML](https://github.com/KAYRA-ML)
-
-Open to interesting problems around AI, automation, protocols and developer tooling.
+You can explore my work here on [GitHub](https://github.com/Kayra-ML). Open to conversations about **data analysis, Python development and automation**.
