@@ -45,7 +45,7 @@ A few public projects chosen for their relevance to data, Python development and
 
 A Formula 1 data analysis app using SQL queries, a Python API and interactive driver, team and lap comparisons.
 
-<sub>0x00 · 01 Jul 2026 → 19 Sep 2026</sub>
+<sub>0x00 · 01 Jul 2026 → 25 Oct 2026</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -55,7 +55,7 @@ A Formula 1 data analysis app using SQL queries, a Python API and interactive dr
 
 A document search and PDF reading application connecting Google Drive with a Python backend, keyword search and caching.
 
-<sub>0x01 · 27 Aug 2026 → 19 Sep 2026</sub>
+<sub>0x01 · 27 Aug 2026 → 25 Oct 2026</sub>
 
 </td>
 </tr>
@@ -67,7 +67,7 @@ A document search and PDF reading application connecting Google Drive with a Pyt
 
 An MCP-based skill and memory system that routes AI coding requests to relevant tools, with documented evaluation scripts.
 
-<sub>0x02 · 05 Sep 2026 → 19 Sep 2026</sub>
+<sub>0x02 · 05 Sep 2026 → 25 Oct 2026</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -77,7 +77,7 @@ An MCP-based skill and memory system that routes AI coding requests to relevant 
 
 An exploratory framework for comparing LLM behavior and documenting model attribution hypotheses; not a definitive identity test.
 
-<sub>0x03 · 12 Sep 2026 → 19 Sep 2026</sub>
+<sub>0x03 · 12 Sep 2026 → 25 Oct 2026</sub>
 
 </td>
 </tr>
@@ -85,11 +85,11 @@ An exploratory framework for comparing LLM behavior and documenting model attrib
 <td width="50%" valign="top">
 
 #### [Rove_cli](https://github.com/KAYRA-ML/Rove_cli)
-<sub>`Wails` · `React` · `TypeScript` — 1 star</sub>
+<sub>`Go` · `Wails` · `React` · `TypeScript` — 1 star</sub>
 
-A local-first coding agent with a shared daemon and desktop interface for sessions, terminal workflows and automations.
+A local-first coding agent with a Go daemon and desktop interface for sessions, terminal workflows and automations.
 
-<sub>0x04 · 17 Sep 2026 → 16 Oct 2026</sub>
+<sub>0x04 · 17 Sep 2026 → 25 Oct 2026</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -99,7 +99,7 @@ A local-first coding agent with a shared daemon and desktop interface for sessio
 
 A Python utility for translating active text between Turkish and English using global keyboard shortcuts on macOS.
 
-<sub>0x05 · 15 Sep 2026 → 19 Sep 2026</sub>
+<sub>0x05 · 15 Sep 2026 → 25 Oct 2026</sub>
 
 </td>
 </tr>
