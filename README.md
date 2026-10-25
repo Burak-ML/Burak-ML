@@ -40,54 +40,66 @@ A few public projects chosen for their relevance to data, Python development and
 <tr>
 <td width="50%" valign="top">
 
-#### [fast_f1_data](https://github.com/Kayra-ML/fast_f1_data)
-<sub>Python · SQL · PostgreSQL · FastAPI</sub>
+#### [fast_f1_data](https://github.com/KAYRA-ML/fast_f1_data)
+<sub>`Python` · `SQL` · `PostgreSQL` · `FastAPI` — 5 stars</sub>
 
-F1 analysis platform: SQL-backed driver, team and lap comparisons with a Python API.
+A Formula 1 data analysis app using SQL queries, a Python API and interactive driver, team and lap comparisons.
 
-</td>
-<td width="50%" valign="top">
-
-#### [SearchForge_open](https://github.com/Kayra-ML/SearchForge_open)
-<sub>Python · FastAPI · Next.js · Google Drive</sub>
-
-Search and read Drive documents and PDFs using a Python API and keyword-based retrieval.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [RoveCode_plugins](https://github.com/Kayra-ML/RoveCode_plugins)
-<sub>TypeScript · MCP · Automation</sub>
-
-Domain-aware skills and memory for AI coding tools, with evaluation scripts.
+<sub>0x00 · 01 Jul 2026 → 19 Sep 2026</sub>
 
 </td>
 <td width="50%" valign="top">
 
-#### [ModelAudit](https://github.com/Kayra-ML/ModelAudit)
-<sub>LLM evaluation · Research</sub>
+#### [SearchForge_open](https://github.com/KAYRA-ML/SearchForge_open)
+<sub>`Python` · `FastAPI` · `Next.js` · `Google Drive` — 4 stars</sub>
 
-Exploratory model behavior analysis; a methodology for forming attribution hypotheses, not proving identity.
+A document search and PDF reading application connecting Google Drive with a Python backend, keyword search and caching.
+
+<sub>0x01 · 27 Aug 2026 → 19 Sep 2026</sub>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### [Rove_cli](https://github.com/Kayra-ML/Rove_cli)
-<sub>Go · Wails · React</sub>
+#### [RoveCode_plugins](https://github.com/KAYRA-ML/RoveCode_plugins)
+<sub>`TypeScript` · `MCP` · `AI Automation` — 25 stars</sub>
 
-Local-first coding agent with a shared daemon, desktop app and CLI workflows.
+An MCP-based skill and memory system that routes AI coding requests to relevant tools, with documented evaluation scripts.
+
+<sub>0x02 · 05 Sep 2026 → 19 Sep 2026</sub>
 
 </td>
 <td width="50%" valign="top">
 
-#### [KeyLingo](https://github.com/Kayra-ML/KeyLingo)
-<sub>Python · macOS · DeepL</sub>
+#### [ModelAudit](https://github.com/KAYRA-ML/ModelAudit)
+<sub>`LLM Evaluation` · `Research` · `AI` — 23 stars</sub>
 
-Keyboard-driven translation utility for text inputs across macOS apps.
+An exploratory framework for comparing LLM behavior and documenting model attribution hypotheses; not a definitive identity test.
+
+<sub>0x03 · 12 Sep 2026 → 19 Sep 2026</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [Rove_cli](https://github.com/KAYRA-ML/Rove_cli)
+<sub>`Go` · `Wails` · `React` · `TypeScript` — 1 star</sub>
+
+A local-first coding agent with a Go daemon and desktop interface for sessions, terminal workflows and automations.
+
+<sub>0x04 · 17 Sep 2026 → 16 Oct 2026</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### [KeyLingo](https://github.com/KAYRA-ML/KeyLingo)
+<sub>`Python` · `macOS` · `DeepL API` — 2 stars</sub>
+
+A Python utility for translating active text between Turkish and English using global keyboard shortcuts on macOS.
+
+<sub>0x05 · 15 Sep 2026 → 19 Sep 2026</sub>
 
 </td>
 </tr>
