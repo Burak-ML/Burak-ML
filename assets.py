@@ -92,13 +92,13 @@ def build_header(theme_name, u, projects):
     H = 440
     since = datetime.strptime(u["createdAt"][:10], "%Y-%m-%d").strftime("%Y")
 
-    p = head(W, H, "Kayra, @KAYRA-ML — 18, Hatay, Türkiye. "
+    p = head(W, H, "Burak, @KAYRA-ML — 18, Hatay, Türkiye. "
              + THESIS.replace("\n", " ").strip())
     p += plate(t, W, H)
     p += bit_ruler(t, 74, M, 560)
 
     # --- left: the name, drawn on the same grid as the ruler above it
-    mark, mw, mh = wordmark("KAYRA", M, 118, 0.95, t["wordmark"])
+    mark, mw, mh = wordmark("BURAK", M, 118, 0.95, t["wordmark"])
     p.append(mark)
 
     p.append('<text x="%d" y="%d" font-family="%s" font-size="12.5" fill="%s" '
