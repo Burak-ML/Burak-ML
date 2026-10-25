@@ -1,4 +1,4 @@
-"""The KAYRA wordmark, drawn rather than typed.
+"""The profile wordmark, drawn rather than typed.
 
 No webfont survives GitHub's SVG sanitiser and no installed face is the right
 answer, so the letters are authored as stroked paths on the same grid the packet
@@ -19,6 +19,7 @@ GLYPHS = {
     "B": ["M10,10 H50 A30,30 0 0 1 50,70 H10",
           "M10,70 H56 A30,30 0 0 1 56,130 H10",
           "M10,10 V130"],
+    "U": ["M10,10 V90 A40,40 0 0 0 90,90 V10"],
     "E": ["M90,10 H10 V130 H90",
           "M10,70 H74"],
     "R": ["M10,130 V10 H50 A30,30 0 0 1 50,70 H10",
