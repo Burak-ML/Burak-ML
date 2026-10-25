@@ -7,7 +7,7 @@ Run locally with a token that can read public data:
     GITHUB_TOKEN=$(gh auth token) python build.py
 
 In CI the workflow passes the job's GITHUB_TOKEN. Note the query asks for
-user(login:...) and not viewer — inside Actions `viewer` is the bot, not Kayra.
+user(login:...) and not viewer — inside Actions `viewer` is the bot, not the profile owner.
 
 Each figure is written twice, once per theme, and the README pairs them in a
 <picture> so a reader on either GitHub theme gets the one meant for them.
@@ -131,7 +131,7 @@ def fetch():
     if "errors" in payload:
         sys.exit("GraphQL error: " + json.dumps(payload["errors"])[:400])
     user = payload["data"]["user"]
-    # A personal PROFILE_TOKEN can see Kayra's private contribution calendar,
+    # A personal PROFILE_TOKEN can see private contribution data,
     # so keep the GraphQL data in that case. With the repository-scoped Actions
     # token, fall back to GitHub's public profile HTML so the visible public graph
     # and its activity levels still match GitHub exactly.
@@ -155,42 +155,40 @@ def fetch():
 # identical in chrome: a reader should not be able to tell which ones the author
 # could not be bothered to write about.
 CURATED = {
-    "Rove_cli": (
-        ["Go", "Wails", "React", "TypeScript"],
-        "A local-first AI agent desktop and CLI: multi-session chat, Kanban, terminal "
-        "multiplexing, memory, skills/plugins and background automation in one app."
-    ),
-    "ModelAudit": (
-        ["LLM", "AI Forensics", "Prompt Engineering"],
-        "An open framework for LLM identity forensics: fingerprinting model behavior, "
-        "testing transparency and detecting when a model is wrapped behind another persona."
-    ),
-    "RoveCode_plugins": (
-        ["TypeScript", "MCP", "AI Engineering"],
-        "A token-efficient skill, routing and memory layer for AI coding tools, with "
-        "domain-aware plugins, deterministic routing and persistent user preferences."
-    ),
-    "KeyLingo": (
-        ["Python", "DeepL API", "macOS"],
-        "A global macOS translator that turns typed text between Turkish and English "
-        "inside any app using keyboard shortcuts, while preserving clipboard and input state."
+    "fast_f1_data": (
+        ["Python", "SQL", "PostgreSQL", "FastAPI"],
+        "A Formula 1 data analysis app using SQL queries, a Python API and "
+        "interactive driver, team and lap comparisons."
     ),
     "SearchForge_open": (
         ["Python", "FastAPI", "Next.js", "Google Drive"],
-        "A document search system for PDFs and files stored in Google Drive, with a "
-        "FastAPI backend, browser PDF reading and keyword/page-level search."
+        "A document search and PDF reading application connecting Google Drive "
+        "with a Python backend, keyword search and caching."
     ),
-    "fast_f1_data": (
-        ["Python", "FastAPI", "PostgreSQL", "React"],
-        "A full-stack Formula 1 data analysis platform for 2024-2025 data, built around "
-        "RAM-efficient SQL queries, pagination and interactive driver/team analysis."
+    "RoveCode_plugins": (
+        ["TypeScript", "MCP", "AI Automation"],
+        "An MCP-based skill and memory system that routes AI coding requests "
+        "to relevant tools, with documented evaluation scripts."
     ),
-    "pyutils-toolkit": (
-        ["Python"],
-        "A lightweight Python utility library for common data-processing tasks: strings, "
-        "dates, file I/O, configuration handling and logging helpers."
+    "ModelAudit": (
+        ["LLM Evaluation", "Research", "AI"],
+        "An exploratory framework for comparing LLM behavior and documenting "
+        "model attribution hypotheses; not a definitive identity test."
+    ),
+    "Rove_cli": (
+        ["Go", "Wails", "React", "TypeScript"],
+        "A local-first coding agent with a Go daemon and desktop interface "
+        "for sessions, terminal workflows and automations."
+    ),
+    "KeyLingo": (
+        ["Python", "macOS", "DeepL API"],
+        "A Python utility for translating active text between Turkish and "
+        "English using global keyboard shortcuts on macOS."
     ),
 }
+
+# The profile intentionally showcases six projects. The repository and language
+# charts still consider all public repositories.
 
 # GitHub reports a custom or unrecognised licence as one of these. Printing
 # "Other" next to a project says nothing, so it is dropped instead.
@@ -232,7 +230,7 @@ def render_card(r, index):
 
     # Dates, not "3 hours ago". A relative stamp would differ on almost every
     # run and the workflow would commit every ten minutes forever; a date only
-    # changes when Kayra actually pushes.
+    # changes when the repository owner actually pushes.
     foot = "0x%02X · %s → %s" % (index, day(r["createdAt"]), day(r["pushedAt"]))
 
     return "\n".join([
@@ -246,12 +244,9 @@ def render_card(r, index):
 
 
 def build_projects(repos):
-    """The whole card grid, two per row, ordered curated-first then newest."""
+    """A compact, recruiter-friendly grid of selected public projects."""
     by = {r["name"]: r for r in repos}
-    curated = [n for n in CURATED if n in by]
-    rest = sorted((r for r in repos if r["name"] not in CURATED),
-                  key=lambda r: r["createdAt"], reverse=True)
-    ordered = [by[n] for n in curated] + rest
+    ordered = [by[name] for name in CURATED if name in by]
 
     rows = []
     for i in range(0, len(ordered), 2):
