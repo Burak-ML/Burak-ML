@@ -269,7 +269,7 @@ def build_projects(repos):
 FIGURES = ("header", "fields", "calendar", "segments", "langs")
 
 ALT = {
-    "header": "Kayra, @KAYRA-ML. 18, Hatay, Türkiye. "
+    "header": "Burak, @KAYRA-ML. 18, Hatay, Türkiye. "
               "I'd rather speak the protocol than drive a browser.",
     "fields": "Activity as a struct: contributions, commits, repositories, "
               "busiest day and the date the account opened.",
