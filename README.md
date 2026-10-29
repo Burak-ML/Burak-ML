@@ -89,7 +89,7 @@ An exploratory framework for comparing LLM behavior and documenting model attrib
 
 A local-first coding agent with a shared daemon and desktop interface for sessions, terminal workflows and automations.
 
-<sub>0x04 · 17 Sep 2026 → 25 Oct 2026</sub>
+<sub>0x04 · 17 Sep 2026 → 29 Oct 2026</sub>
 
 </td>
 <td width="50%" valign="top">
