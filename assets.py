@@ -92,7 +92,7 @@ def build_header(theme_name, u, projects):
     H = 440
     since = datetime.strptime(u["createdAt"][:10], "%Y-%m-%d").strftime("%Y")
 
-    p = head(W, H, "Burak, @KAYRA-ML — 18, Hatay, Türkiye. "
+    p = head(W, H, "Burak, @Burak-ML — 18, Hatay, Türkiye. "
              + THESIS.replace("\n", " ").strip())
     p += plate(t, W, H)
     p += bit_ruler(t, 74, M, 560)
@@ -102,7 +102,7 @@ def build_header(theme_name, u, projects):
     p.append(mark)
 
     p.append('<text x="%d" y="%d" font-family="%s" font-size="12.5" fill="%s" '
-             'letter-spacing="0.6">@KAYRA-ML · 18 · Hatay, Türkiye · since %s</text>'
+             'letter-spacing="0.6">@Burak-ML · 18 · Hatay, Türkiye · since %s</text>'
              % (M, 262, MONO, t["ink3"], esc(since)))
 
     for i, line in enumerate(("I'd rather speak the protocol", "than drive a browser.")):

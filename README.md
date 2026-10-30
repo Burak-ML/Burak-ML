@@ -1,21 +1,21 @@
 <!--fig-header-->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img alt="Burak, @KAYRA-ML. 18, Hatay, Türkiye. I'd rather speak the protocol than drive a browser." src="assets/header-light.svg" width="100%">
+  <img alt="Burak, @Burak-ML. 18, Hatay, Türkiye. I'd rather speak the protocol than drive a browser." src="assets/header-light.svg" width="100%">
 </picture>
 <!--/fig-header-->
 
 ## About me
 
-I'm **Burak**, a second-year Computer Programming student in Türkiye, currently looking for internship and junior opportunities.
+I'm **Burak**, a second-year Computer Programming student in Türkiye. I build **AI automation and agentic systems** — tools where models call tools, route work and run workflows — and I use AI as a serious engineering partner to take projects from idea to something documented, tested and professional.
 
-I work primarily with **Python, SQL and data analysis**. Alongside data projects, I build **APIs, developer tools and AI-assisted automation systems**. I enjoy understanding a problem, designing a practical solution and documenting how it works.
+Alongside that, I work in **data science**: Python, SQL and data analysis. I'm currently open to internship and junior opportunities.
 
 ### Focus & tools
 
-- **Data & analysis:** Python, SQL, PostgreSQL, Pandas, NumPy, Jupyter
-- **Backend development:** FastAPI, REST APIs, Git
-- **Automation & tooling:** MCP, TypeScript, GitHub Actions
+- **AI automation & agents:** MCP, tool-using agents, LLM evaluation, TypeScript, GitHub Actions
+- **Data science & analysis:** Python, SQL, PostgreSQL, Pandas, NumPy, Jupyter
+- **Backend & tooling:** FastAPI, REST APIs, Git
 
 <!--fig-fields-->
 <picture>
@@ -33,14 +33,14 @@ I work primarily with **Python, SQL and data analysis**. Alongside data projects
 
 ## Selected projects
 
-A few public projects chosen for their relevance to data, Python development and automation. Each repository has technical details and setup instructions.
+A few public projects, led by AI automation and agent work, with data projects alongside. Each repository has technical details and setup instructions.
 
 <!--projects-->
 <table>
 <tr>
 <td width="50%" valign="top">
 
-#### [fast_f1_data](https://github.com/KAYRA-ML/fast_f1_data)
+#### [fast_f1_data](https://github.com/Burak-ML/fast_f1_data)
 <sub>`Python` · `SQL` · `PostgreSQL` · `FastAPI` — 5 stars</sub>
 
 A Formula 1 data analysis app using SQL queries, a Python API and interactive driver, team and lap comparisons.
@@ -50,7 +50,7 @@ A Formula 1 data analysis app using SQL queries, a Python API and interactive dr
 </td>
 <td width="50%" valign="top">
 
-#### [SearchForge_open](https://github.com/KAYRA-ML/SearchForge_open)
+#### [SearchForge_open](https://github.com/Burak-ML/SearchForge_open)
 <sub>`Python` · `FastAPI` · `Next.js` · `Google Drive` — 4 stars</sub>
 
 A document search and PDF reading application connecting Google Drive with a Python backend, keyword search and caching.
@@ -62,7 +62,7 @@ A document search and PDF reading application connecting Google Drive with a Pyt
 <tr>
 <td width="50%" valign="top">
 
-#### [RoveCode_plugins](https://github.com/KAYRA-ML/RoveCode_plugins)
+#### [RoveCode_plugins](https://github.com/Burak-ML/RoveCode_plugins)
 <sub>`TypeScript` · `MCP` · `AI Automation` — 25 stars</sub>
 
 An MCP-based skill and memory system that routes AI coding requests to relevant tools, with documented evaluation scripts.
@@ -72,7 +72,7 @@ An MCP-based skill and memory system that routes AI coding requests to relevant 
 </td>
 <td width="50%" valign="top">
 
-#### [ModelAudit](https://github.com/KAYRA-ML/ModelAudit)
+#### [ModelAudit](https://github.com/Burak-ML/ModelAudit)
 <sub>`LLM Evaluation` · `Research` · `AI` — 23 stars</sub>
 
 An exploratory framework for comparing LLM behavior and documenting model attribution hypotheses; not a definitive identity test.
@@ -84,7 +84,7 @@ An exploratory framework for comparing LLM behavior and documenting model attrib
 <tr>
 <td width="50%" valign="top">
 
-#### [Rove_cli](https://github.com/KAYRA-ML/Rove_cli)
+#### [Rove_cli](https://github.com/Burak-ML/Rove_cli)
 <sub>`Wails` · `React` · `TypeScript` — 1 star</sub>
 
 A local-first coding agent with a shared daemon and desktop interface for sessions, terminal workflows and automations.
@@ -94,7 +94,7 @@ A local-first coding agent with a shared daemon and desktop interface for sessio
 </td>
 <td width="50%" valign="top">
 
-#### [KeyLingo](https://github.com/KAYRA-ML/KeyLingo)
+#### [KeyLingo](https://github.com/Burak-ML/KeyLingo)
 <sub>`Python` · `macOS` · `DeepL API` — 2 stars</sub>
 
 A Python utility for translating active text between Turkish and English using global keyboard shortcuts on macOS.
@@ -126,10 +126,10 @@ The figures are generated from GitHub activity by [`build.py`](build.py) and [Gi
 
 ## Türkçe
 
-Merhaba, ben **Burak**. Bilgisayar Programcılığı 2. sınıf öğrencisiyim ve veri analizi, Python geliştirme ve otomasyon alanlarında staj veya junior iş fırsatları arıyorum.
+Merhaba, ben **Burak**. Bilgisayar Programcılığı 2. sınıf öğrencisiyim. **Yapay zekâ otomasyonu ve agentic (ajan tabanlı) sistemler** geliştiriyorum; yapay zekâyı fikirden belgelenmiş, test edilmiş, profesyonel bir projeye kadar götürmek için ciddi bir mühendislik ortağı olarak kullanıyorum.
 
-**Python, SQL, PostgreSQL, Pandas** ve API geliştirme üzerine çalışıyorum. Veri analizi projelerinin yanında yapay zekâ destekli otomasyonlar ve geliştirici araçları da geliştiriyorum. Önemsediğim şey yalnızca çalışan bir proje yapmak değil; neden o yaklaşımı seçtiğimi ve nasıl çalıştığını açıklayabilmek.
+Bunun yanında **veri bilimi** ile ilgileniyorum: **Python, SQL, PostgreSQL, Pandas** ve veri analizi. Staj ve junior fırsatlarına açığım. Önemsediğim şey yalnızca çalışan bir proje yapmak değil; neden o yaklaşımı seçtiğimi ve nasıl çalıştığını açıklayabilmek.
 
 ## Contact
 
-You can explore my work here on [GitHub](https://github.com/Kayra-ML). Open to conversations about **data analysis, Python development and automation**.
+You can explore my work here on [GitHub](https://github.com/Burak-ML). Open to conversations about **AI automation, agentic systems and data science**.

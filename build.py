@@ -26,7 +26,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import assets                                            # noqa: E402
 from theme import THEMES                                 # noqa: E402
 
-USER = "KAYRA-ML"
+USER = "Burak-ML"
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(ROOT, "assets")
 README = os.path.join(ROOT, "README.md")
@@ -155,30 +155,30 @@ def fetch():
 # identical in chrome: a reader should not be able to tell which ones the author
 # could not be bothered to write about.
 CURATED = {
-    "fast_f1_data": (
-        ["Python", "SQL", "PostgreSQL", "FastAPI"],
-        "A Formula 1 data analysis app using SQL queries, a Python API and "
-        "interactive driver, team and lap comparisons."
-    ),
-    "SearchForge_open": (
-        ["Python", "FastAPI", "Next.js", "Google Drive"],
-        "A document search and PDF reading application connecting Google Drive "
-        "with a Python backend, keyword search and caching."
-    ),
     "RoveCode_plugins": (
         ["TypeScript", "MCP", "AI Automation"],
         "An MCP-based skill and memory system that routes AI coding requests "
         "to relevant tools, with documented evaluation scripts."
+    ),
+    "Rove_cli": (
+        ["Wails", "React", "TypeScript"],
+        "A local-first coding agent with a shared daemon and desktop interface "
+        "for sessions, terminal workflows and automations."
     ),
     "ModelAudit": (
         ["LLM Evaluation", "Research", "AI"],
         "An exploratory framework for comparing LLM behavior and documenting "
         "model attribution hypotheses; not a definitive identity test."
     ),
-    "Rove_cli": (
-        ["Wails", "React", "TypeScript"],
-        "A local-first coding agent with a shared daemon and desktop interface "
-        "for sessions, terminal workflows and automations."
+    "SearchForge_open": (
+        ["Python", "FastAPI", "Next.js", "Google Drive"],
+        "A document search and PDF reading application connecting Google Drive "
+        "with a Python backend, keyword search and caching."
+    ),
+    "fast_f1_data": (
+        ["Python", "SQL", "PostgreSQL", "FastAPI"],
+        "A Formula 1 data analysis app using SQL queries, a Python API and "
+        "interactive driver, team and lap comparisons."
     ),
     "KeyLingo": (
         ["Python", "macOS", "DeepL API"],
@@ -264,7 +264,7 @@ def build_projects(repos):
 FIGURES = ("header", "fields", "calendar", "segments", "langs")
 
 ALT = {
-    "header": "Burak, @KAYRA-ML. 18, Hatay, Türkiye. "
+    "header": "Burak, @Burak-ML. 18, Hatay, Türkiye. "
               "I'd rather speak the protocol than drive a browser.",
     "fields": "Activity as a struct: contributions, commits, repositories, "
               "busiest day and the date the account opened.",
