@@ -89,7 +89,7 @@ A document search and PDF reading application connecting Google Drive with a Pyt
 
 A Formula 1 data analysis app using SQL queries, a Python API and interactive driver, team and lap comparisons.
 
-<sub>0x04 · 01 Jul 2026 → 25 Oct 2026</sub>
+<sub>0x04 · 01 Jul 2026 → 30 Oct 2026</sub>
 
 </td>
 <td width="50%" valign="top">
