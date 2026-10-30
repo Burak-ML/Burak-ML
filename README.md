@@ -7,7 +7,7 @@
 
 ## About me
 
-I'm **Burak**, a second-year Computer Programming student in Türkiye. I build **AI automation and agent tooling**: an MCP-based skill and memory system, a local-first coding agent and an LLM evaluation framework. I use AI throughout my development workflow to build projects faster, and I document how each one works.
+I'm **Burak**, a second-year Computer Programming student in Türkiye. I build **AI automation and agent tooling**: an MCP-based skill and memory system, a local-first coding agent and exploratory LLM evaluation work. I develop with AI end to end, and I write down how each project works and how to run it.
 
 Alongside that, I work in **data science**: Python, SQL and data analysis. I'm open to internship and junior opportunities.
 
@@ -126,7 +126,7 @@ The figures are generated from GitHub activity by [`build.py`](build.py) and [Gi
 
 ## Türkçe
 
-Merhaba, ben **Burak**. Bilgisayar Programcılığı 2. sınıf öğrencisiyim. **Yapay zekâ otomasyonu ve ajan (agent) araçları** geliştiriyorum: MCP tabanlı bir skill ve hafıza sistemi, yerel çalışan bir kodlama ajanı ve bir LLM değerlendirme çalışması. Geliştirme sürecimin her aşamasında yapay zekâdan yararlanıyorum ve her projenin nasıl çalıştığını belgeliyorum.
+Merhaba, ben **Burak**. Bilgisayar Programcılığı 2. sınıf öğrencisiyim. **Yapay zekâ otomasyonu ve ajan (agent) araçları** geliştiriyorum: MCP tabanlı bir skill ve hafıza sistemi, yerel çalışan bir kodlama ajanı ve keşif amaçlı LLM değerlendirme çalışmaları. Projeleri baştan sona yapay zekâyla geliştiriyorum; her projenin nasıl çalıştığını ve nasıl çalıştırılacağını yazıyorum.
 
 Bunun yanında **veri bilimi** ile ilgileniyorum: **Python, SQL, PostgreSQL, Pandas** ve veri analizi. Staj ve junior fırsatlarına açığım.
 
