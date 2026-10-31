@@ -261,11 +261,13 @@ def build_projects(repos):
 
 # --------------------------------------------------------------------------- figures
 
-FIGURES = ("header",)
+FIGURES = ("header", "about")
 
 ALT = {
     "header": "Burak, @Burak-ML. AI automation and agentic systems; "
               "data science with Python and SQL.",
+    "about": "About Burak: AI automation and agent tooling, data science with "
+             "Python and SQL, open to internship and junior roles.",
 }
 
 
@@ -288,6 +290,7 @@ def render_figures(u, repos, projects, private):
     files = {}
     for theme in THEMES:
         files["header-%s.svg" % theme] = assets.build_header(theme, u, len(projects))
+        files["about-%s.svg" % theme] = assets.build_about(theme)
     return files, peak
 
 

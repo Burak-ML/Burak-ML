@@ -16,6 +16,8 @@ THEMES = {
         ink3="#6a7893",
         rule="#d6d0c2",
         accent="#8a5a12",
+        chip="#ece6d9",
+        chip_line="#d6d0c2",
         wordmark="#0a1f44",
     ),
     "dark": dict(
@@ -26,6 +28,8 @@ THEMES = {
         ink3="#7e92b4",
         rule="#17335f",
         accent="#e6b56a",
+        chip="#0f2b57",
+        chip_line="#1d3f77",
         wordmark="#f6efe4",
     ),
 }

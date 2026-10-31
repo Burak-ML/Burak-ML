@@ -5,17 +5,12 @@
 </picture>
 <!--/fig-header-->
 
-## About me
-
-I'm **Burak**, a second-year Computer Programming student in Türkiye. I build **AI automation and agent tooling**: an MCP-based skill and memory system, a local-first coding agent and exploratory LLM evaluation work. I develop with AI end to end, and I write down how each project works and how to run it.
-
-Alongside that, I work in **data science**: Python, SQL and data analysis. I'm open to internship and junior opportunities.
-
-### Focus & tools
-
-- **AI automation & agents:** MCP, tool-using agents, LLM evaluation, TypeScript, GitHub Actions
-- **Data science & analysis:** Python, SQL, PostgreSQL, Pandas, NumPy, Jupyter
-- **Backend & tooling:** FastAPI, REST APIs, Git
+<!--fig-about-->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg">
+  <img alt="About Burak: AI automation and agent tooling, data science with Python and SQL, open to internship and junior roles." src="assets/about-light.svg" width="100%">
+</picture>
+<!--/fig-about-->
 
 ## Selected projects
 
@@ -92,11 +87,14 @@ A Python utility for translating active text between Turkish and English using g
 </table>
 <!--/projects-->
 
-## Türkçe
+<details>
+<summary><b>Türkçe</b></summary>
 
 Merhaba, ben **Burak**. Bilgisayar Programcılığı 2. sınıf öğrencisiyim. **Yapay zekâ otomasyonu ve ajan (agent) araçları** geliştiriyorum: MCP tabanlı bir skill ve hafıza sistemi, yerel çalışan bir kodlama ajanı ve keşif amaçlı LLM değerlendirme çalışmaları. Projeleri baştan sona yapay zekâyla geliştiriyorum; her projenin nasıl çalıştığını ve nasıl çalıştırılacağını yazıyorum.
 
 Bunun yanında **veri bilimi** ile ilgileniyorum: **Python, SQL, PostgreSQL, Pandas** ve veri analizi. Staj ve junior fırsatlarına açığım.
+
+</details>
 
 ## Contact
 
