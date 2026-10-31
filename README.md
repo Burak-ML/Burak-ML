@@ -8,7 +8,7 @@
 
 ## Selected projects
 
-A few public projects, led by AI automation and agent work, with data projects alongside. Each repository has technical details and setup instructions.
+Selected work: agent tooling and automation first, data projects alongside. Every repo explains how it works and how to run it.
 
 <!--projects-->
 <table>
