@@ -56,11 +56,14 @@ ABOUT = [
     "opportunities.",
 ]
 
+# Each inner list is one row of columns.
 TOOLS = [
-    ("AI AUTOMATION & AGENTS",
-     ["MCP", "Tool-using agents", "LLM evaluation", "GitHub Actions"]),
-    ("DATA SCIENCE",
-     ["Python", "SQL", "PostgreSQL", "Pandas", "NumPy", "Jupyter"]),
+    [("AI AUTOMATION & AGENTS",
+      ["MCP", "Tool-using agents", "LLM evaluation", "GitHub Actions"]),
+     ("DATA SCIENCE",
+      ["Python", "SQL", "PostgreSQL", "Pandas", "NumPy", "Jupyter"])],
+    [("I DEVELOP WITH",
+      ["Claude", "Grok", "Codex", "Agy"])],
 ]
 
 CHIP_H, CHIP_GAP, CHIP_FS = 30, 10, 13.5
@@ -103,19 +106,22 @@ def build_about(theme_name):
     body.append('<rect x="%d" y="%d" width="%d" height="1" fill="%s"/>' % (M, y, W - 2 * M, t["rule"]))
     y += 34
 
-    col_w = (W - 2 * M - 48) // 2
     bottom = y
-    for c, (title, labels) in enumerate(TOOLS):
-        x = M + c * (col_w + 48)
-        body.append('<text x="%d" y="%d" font-family="%s" font-size="12.5" fill="%s" '
-                    'letter-spacing="2.2">%s</text>' % (x, y, MONO, t["accent"], esc(title)))
-        chips, b = _chips(t, labels, x, y + 18, col_w)
-        body += chips
-        bottom = max(bottom, b)
+    for r, row in enumerate(TOOLS):
+        if r:
+            y = bottom + 34
+        col_w = (W - 2 * M - 48 * (len(row) - 1)) // len(row)
+        for c, (title, labels) in enumerate(row):
+            x = M + c * (col_w + 48)
+            body.append('<text x="%d" y="%d" font-family="%s" font-size="12.5" fill="%s" '
+                        'letter-spacing="2.2">%s</text>' % (x, y, MONO, t["accent"], esc(title)))
+            chips, b = _chips(t, labels, x, y + 18, col_w)
+            body += chips
+            bottom = b if c == 0 else max(bottom, b)
 
     h = bottom + 44
     label = "About Burak. " + " ".join(ABOUT) + " " + " ".join(
-        "%s: %s." % (n.title(), ", ".join(l)) for n, l in TOOLS)
+        "%s: %s." % (n.title(), ", ".join(l)) for row in TOOLS for n, l in row)
     p = ['<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 %d %d" width="%d" '
          'height="%d" role="img" aria-label="%s">' % (W, h, W, h, esc(label)),
          "<defs>"

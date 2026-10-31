@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 408" width="1200" height="408" role="img" aria-label="About Burak. I'm Burak, a second-year Computer Programming student in Türkiye. I build AI automation and agent tooling: an MCP-based skill and memory system, a local-first coding agent and exploratory LLM evaluation work. I develop with AI end to end, and I write down how each project works and how to run it. Alongside that, I work in data science. I'm open to internship and junior opportunities. Ai Automation &amp; Agents: MCP, Tool-using agents, LLM evaluation, GitHub Actions. Data Science: Python, SQL, PostgreSQL, Pandas, NumPy, Jupyter.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 490" width="1200" height="490" role="img" aria-label="About Burak. I'm Burak, a second-year Computer Programming student in Türkiye. I build AI automation and agent tooling: an MCP-based skill and memory system, a local-first coding agent and exploratory LLM evaluation work. I develop with AI end to end, and I write down how each project works and how to run it. Alongside that, I work in data science. I'm open to internship and junior opportunities. Ai Automation &amp; Agents: MCP, Tool-using agents, LLM evaluation, GitHub Actions. Data Science: Python, SQL, PostgreSQL, Pandas, NumPy, Jupyter. I Develop With: Claude, Grok, Codex, Agy.">
 <defs><radialGradient id="glow" cx="0.18" cy="0.2" r="0.9"><stop offset="0" stop-color="#0d3269"/><stop offset="1" stop-color="#061a3a"/></radialGradient></defs>
-<rect width="1200" height="408" fill="#061a3a"/>
-<rect width="1200" height="408" fill="url(#glow)"/>
+<rect width="1200" height="490" fill="#061a3a"/>
+<rect width="1200" height="490" fill="url(#glow)"/>
 <text x="56" y="46" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#e6b56a" letter-spacing="2.2">ABOUT</text>
 <text x="56" y="90" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" fill="#f6efe4">I'm Burak, a second-year Computer Programming student in Türkiye. I build AI automation and</text>
 <text x="56" y="120" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" fill="#f6efe4">agent tooling: an MCP-based skill and memory system, a local-first coding agent and exploratory</text>
@@ -31,4 +31,13 @@
 <text x="1013.0" y="314" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.5" fill="#f6efe4" text-anchor="middle">NumPy</text>
 <rect x="1057" y="294" width="85" height="30" rx="15" fill="#0f2b57" stroke="#1d3f77"/>
 <text x="1099.5" y="314" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.5" fill="#f6efe4" text-anchor="middle">Jupyter</text>
+<text x="56" y="398" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#e6b56a" letter-spacing="2.2">I DEVELOP WITH</text>
+<rect x="56" y="416" width="77" height="30" rx="15" fill="#0f2b57" stroke="#1d3f77"/>
+<text x="94.5" y="436" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.5" fill="#f6efe4" text-anchor="middle">Claude</text>
+<rect x="143" y="416" width="60" height="30" rx="15" fill="#0f2b57" stroke="#1d3f77"/>
+<text x="173.0" y="436" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.5" fill="#f6efe4" text-anchor="middle">Grok</text>
+<rect x="213" y="416" width="68" height="30" rx="15" fill="#0f2b57" stroke="#1d3f77"/>
+<text x="247.0" y="436" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.5" fill="#f6efe4" text-anchor="middle">Codex</text>
+<rect x="291" y="416" width="52" height="30" rx="15" fill="#0f2b57" stroke="#1d3f77"/>
+<text x="317.0" y="436" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13.5" fill="#f6efe4" text-anchor="middle">Agy</text>
 </svg>
