@@ -58,7 +58,7 @@ ABOUT = [
 
 TOOLS = [
     ("AI AUTOMATION & AGENTS",
-     ["MCP", "Tool-using agents", "LLM evaluation", "TypeScript", "GitHub Actions"]),
+     ["MCP", "Tool-using agents", "LLM evaluation", "GitHub Actions"]),
     ("DATA SCIENCE",
      ["Python", "SQL", "PostgreSQL", "Pandas", "NumPy", "Jupyter"]),
 ]
