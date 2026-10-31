@@ -9,8 +9,7 @@ Run locally with a token that can read public data:
 In CI the workflow passes the job's GITHUB_TOKEN. Note the query asks for
 user(login:...) and not viewer — inside Actions `viewer` is the bot, not the profile owner.
 
-Each figure is written twice, once per theme, and the README pairs them in a
-<picture> so a reader on either GitHub theme gets the one meant for them.
+Each figure is one SVG used in both GitHub modes.
 """
 
 import html as html_lib
@@ -272,13 +271,8 @@ ALT = {
 
 
 def figure(name):
-    """A <picture> pairing the two themes. GitHub renders this natively, so the
-    reader never gets the wrong one baked into an <img>."""
-    asset = name
-    return ("<picture>\n"
-            '  <source media="(prefers-color-scheme: dark)" srcset="assets/%s-dark.svg">\n'
-            '  <img alt="%s" src="assets/%s-light.svg" width="100%%">\n'
-            "</picture>" % (asset, ALT[name], asset))
+    """One image, one theme: the profile looks the same in light and dark mode."""
+    return '<img alt="%s" src="assets/%s.svg" width="100%%">' % (ALT[name], name)
 
 
 def render_figures(u, repos, projects, private):
@@ -289,8 +283,8 @@ def render_figures(u, repos, projects, private):
     opened = u["createdAt"][:10]
     files = {}
     for theme in THEMES:
-        files["header-%s.svg" % theme] = assets.build_header(theme, u, len(projects))
-        files["about-%s.svg" % theme] = assets.build_about(theme)
+        files["header.svg"] = assets.build_header(theme, u, len(projects))
+        files["about.svg"] = assets.build_about(theme)
     return files, peak
 
 

@@ -1,15 +1,9 @@
 <!--fig-header-->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img alt="Burak, @Burak-ML. AI automation and agentic systems; data science with Python and SQL." src="assets/header-light.svg" width="100%">
-</picture>
+<img alt="Burak, @Burak-ML. AI automation and agentic systems; data science with Python and SQL." src="assets/header.svg" width="100%">
 <!--/fig-header-->
 
 <!--fig-about-->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg">
-  <img alt="About Burak: AI automation and agent tooling, data science with Python and SQL, open to internship and junior roles." src="assets/about-light.svg" width="100%">
-</picture>
+<img alt="About Burak: AI automation and agent tooling, data science with Python and SQL, open to internship and junior roles." src="assets/about.svg" width="100%">
 <!--/fig-about-->
 
 ## Selected projects
