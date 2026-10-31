@@ -231,7 +231,7 @@ def render_card(r, index):
     # Dates, not "3 hours ago". A relative stamp would differ on almost every
     # run and the workflow would commit every ten minutes forever; a date only
     # changes when the repository owner actually pushes.
-    foot = "0x%02X · %s → %s" % (index, day(r["createdAt"]), day(r["pushedAt"]))
+    foot = "%s → %s" % (day(r["createdAt"]), day(r["pushedAt"]))
 
     return "\n".join([
         "#### [%s](https://github.com/%s/%s)" % (name, USER, name),
@@ -261,25 +261,18 @@ def build_projects(repos):
 
 # --------------------------------------------------------------------------- figures
 
-FIGURES = ("header", "fields", "calendar", "segments", "langs")
+FIGURES = ("header",)
 
 ALT = {
-    "header": "Burak, @Burak-ML. 18, Türkiye. "
-              "I'd rather speak the protocol than drive a browser.",
-    "fields": "Activity as a struct: contributions, commits, repositories, "
-              "busiest day and the date the account opened.",
-    "calendar": "The most recent 26 weeks as a hexdump — one byte per day, with activity cells matched to GitHub.",
-    "segments": "Every public project as a segment on one time axis, from the "
-                "day its repository was created to its last push.",
-    "langs": "Languages as a memory map, sized by the bytes of source GitHub "
-             "reports for each one.",
+    "header": "Burak, @Burak-ML. AI automation and agentic systems; "
+              "data science with Python and SQL.",
 }
 
 
 def figure(name):
     """A <picture> pairing the two themes. GitHub renders this natively, so the
     reader never gets the wrong one baked into an <img>."""
-    asset = "calendar-26w" if name == "calendar" else name
+    asset = name
     return ("<picture>\n"
             '  <source media="(prefers-color-scheme: dark)" srcset="assets/%s-dark.svg">\n'
             '  <img alt="%s" src="assets/%s-light.svg" width="100%%">\n'
@@ -294,13 +287,7 @@ def render_figures(u, repos, projects, private):
     opened = u["createdAt"][:10]
     files = {}
     for theme in THEMES:
-        colours = assets.language_colours(theme, repos)
         files["header-%s.svg" % theme] = assets.build_header(theme, u, len(projects))
-        files["fields-%s.svg" % theme] = assets.build_fields(
-            theme, cc, len(repos), peak, opened, private)
-        files["calendar-26w-%s.svg" % theme] = assets.build_calendar(theme, u)
-        files["segments-%s.svg" % theme] = assets.build_segments(theme, projects, colours)
-        files["langs-%s.svg" % theme] = assets.build_langs(theme, repos)
     return files, peak
 
 

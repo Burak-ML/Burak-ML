@@ -18,7 +18,7 @@ GLYPHS = {
     # terminals butt into it, which otherwise antialias as a hairline notch.
     "B": ["M10,10 H50 A30,30 0 0 1 50,70 H10",
           "M10,70 H56 A30,30 0 0 1 56,130 H10",
-          "M10,10 V130"],
+          "M10,0 V140"],
     "U": ["M10,10 V90 A40,40 0 0 0 90,90 V10"],
     "E": ["M90,10 H10 V130 H90",
           "M10,70 H74"],
