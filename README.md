@@ -30,7 +30,7 @@ An MCP-based skill and memory system that routes AI coding requests to relevant 
 
 A local-first coding agent with a shared daemon and desktop interface for sessions, terminal workflows and automations.
 
-<sub>17 Sep 2026 → 31 Oct 2026</sub>
+<sub>17 Sep 2026 → 04 Nov 2026</sub>
 
 </td>
 </tr>
