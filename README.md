@@ -20,7 +20,7 @@ Selected work: agent tooling and automation first, data projects alongside. Ever
 
 An MCP-based skill and memory system that routes AI coding requests to relevant tools, with documented evaluation scripts.
 
-<sub>05 Sep 2026 → 31 Oct 2026</sub>
+<sub>05 Sep 2026 → 10 Nov 2026</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -30,7 +30,7 @@ An MCP-based skill and memory system that routes AI coding requests to relevant 
 
 A local-first coding agent with a shared daemon and desktop interface for sessions, terminal workflows and automations.
 
-<sub>17 Sep 2026 → 05 Nov 2026</sub>
+<sub>17 Sep 2026 → 10 Nov 2026</sub>
 
 </td>
 </tr>
@@ -42,7 +42,7 @@ A local-first coding agent with a shared daemon and desktop interface for sessio
 
 An exploratory framework for comparing LLM behavior and documenting model attribution hypotheses; not a definitive identity test.
 
-<sub>12 Sep 2026 → 31 Oct 2026</sub>
+<sub>12 Sep 2026 → 10 Nov 2026</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -52,7 +52,7 @@ An exploratory framework for comparing LLM behavior and documenting model attrib
 
 A document search and PDF reading application connecting Google Drive with a Python backend, keyword search and caching.
 
-<sub>27 Aug 2026 → 31 Oct 2026</sub>
+<sub>27 Aug 2026 → 10 Nov 2026</sub>
 
 </td>
 </tr>
@@ -64,7 +64,7 @@ A document search and PDF reading application connecting Google Drive with a Pyt
 
 A Formula 1 data analysis app using SQL queries, a Python API and interactive driver, team and lap comparisons.
 
-<sub>01 Jul 2026 → 31 Oct 2026</sub>
+<sub>01 Jul 2026 → 10 Nov 2026</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -74,7 +74,7 @@ A Formula 1 data analysis app using SQL queries, a Python API and interactive dr
 
 A Python utility for translating active text between Turkish and English using global keyboard shortcuts on macOS.
 
-<sub>15 Sep 2026 → 31 Oct 2026</sub>
+<sub>15 Sep 2026 → 10 Nov 2026</sub>
 
 </td>
 </tr>
